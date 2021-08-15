@@ -1,0 +1,25 @@
+V=['Car','Bus','Train','Aeroplane','Boat',1,2,3,4,5]
+print("\nList V :",V[:])
+
+print("\nList V : 2 to 5",V[2:6])
+
+print("\nList V in reverse:",V[::-1])
+
+V.append('Vehicals')
+print("\nList V after appending  :",V[:])
+
+V.insert(3,'Bicycle')
+print("\nList V after inserting  :",V[:])
+
+V.pop(1)
+print("\nList V after poping :",V[:])
+
+V.remove('Boat')
+print("\nList V after removing :",V[:])
+
+del V[0]
+print("\nList V after deleteing :",V[:])
+
+V.clear()
+print("\nList A after clearing :",V[:])
+
